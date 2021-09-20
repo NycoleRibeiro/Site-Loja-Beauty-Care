@@ -51,7 +51,7 @@ a {
     transition: 0.3s;
 }
 
-.grupoWpp {
+.grupoWppPC {
     width: 100vw;
     margin-top: 5vw;
     display: flex;
@@ -63,7 +63,58 @@ a {
     font-weight: bold;
 }
 
+.grupoWppCel {
+    display: none;
+}
+
 .qrcode {   
     width: 10vw;
     margin-right: 1vw;
 }
+
+@media(max-width: 768px) {
+    .header {
+        height: 30vh;
+    }
+
+    .sociais {
+        height: 8vh;
+    }
+
+    .round {
+        width: 15vw;
+        height: 15vw;
+        font-size: 8vw;
+    }
+
+    .grupoWppPC {
+        display: none;
+    }
+
+    .grupoWppCel {
+        display: grid;
+        width: 100vw;
+        margin-top: 5vw;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 4vw;
+        color: #2d532d;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+    }
+
+    .linkWpp {
+        width: 50vw;
+        height: 5vh;
+        border-radius: 50px;
+        background-color: #38413a;
+        margin: auto;
+        margin-top: 5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 2px;
+        font-size: 4vw;
+        color: #ffffff;
+    }
