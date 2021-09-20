@@ -88,6 +88,11 @@ a {
         font-size: 8vw;
     }
 
+    .round:hover {
+        background-color: #38413a;
+        font-size: 8vw;
+    }
+
     .grupoWppPC {
         display: none;
     }
